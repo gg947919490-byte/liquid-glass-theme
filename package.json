@@ -1,0 +1,52 @@
+{
+  "name": "liquid-glass-theme",
+  "displayName": "Liquid Glass",
+  "description": "Apple-inspired liquid glass / frosted glass color theme for VS Code and Chenille AI IDE. Includes light and dark variants with system-blue accents, translucent panels, and smooth editor styling.",
+  "version": "1.0.0",
+  "publisher": "gg947919490-byte",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "liquid glass",
+    "frosted glass",
+    "macos",
+    "apple inspired",
+    "light theme",
+    "dark theme",
+    "chenille"
+  ],
+  "galleryBanner": {
+    "color": "#F5F5F7",
+    "theme": "light"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gg947919490-byte/liquid-glass-theme"
+  },
+  "bugs": {
+    "url": "https://github.com/gg947919490-byte/liquid-glass-theme/issues"
+  },
+  "homepage": "https://github.com/gg947919490-byte/liquid-glass-theme#readme",
+  "contributes": {
+    "themes": [
+      {
+        "id": "Apple Liquid Glass",
+        "label": "Liquid Glass",
+        "uiTheme": "vs",
+        "path": "./themes/liquid-glass-light.json"
+      },
+      {
+        "id": "Apple Liquid Glass Dark",
+        "label": "Liquid Glass Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/liquid-glass-dark.json"
+      }
+    ]
+  }
+}
